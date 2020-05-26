@@ -35,7 +35,7 @@ def writebrackets(fname, brackets):
 
 
 def evalparser(path='./examples', report=False, 
-               bcvocab=None, draw=True,
+               bcvocab=None, draw=False,
                withdp=False, fdpvocab=None, fprojmat=None):
     """ Test the parsing performance
 
