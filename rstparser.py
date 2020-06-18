@@ -11,7 +11,7 @@ def main(path, draw=True):
     with gzip.open("resources/bc3200.pickle.gz") as fin:
         print 'Load Brown clusters for creating features ...'
         bcvocab = load(fin)
-    evalparser(path=path, report=False, draw=draw,
+    evalparser(path=path, report=False, draw=False,
                bcvocab=bcvocab,
                withdp=False)
 
